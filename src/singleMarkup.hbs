@@ -1,0 +1,15 @@
+<h2 class="title">{{name}}</h2>
+<div class="wrapper">
+    <img src="{{flag}}" alt="{{name}}" width="320">
+    <div class="text_wrapper">
+        <p class="text">Столица: {{capital}}</p>
+    <p class="text">Население: {{population}}</p>
+    <p class="text">Язык:</p>
+
+    <ul class="list">
+        {{#each languages}}
+        <li>{{this.name}}</li>
+    {{/each}}
+    </div>
+</div>
+</ul>
